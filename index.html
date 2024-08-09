@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .co{
+        width: 110px;
+        
+    }
+table{
+    margin: 0;
+
+}
+h2{
+    text-align: center;
+}
+    .ma{
+        padding-top: 10px;
+    }
+.re{
+    margin-left: 10px;
+}
+.cont{
+    border: 1px solid black;
+    width: 350px;
+    padding-left: 10px;
+    margin-left: 40%;
+    margin-top: 5%;
+
+}
+input:hover{
+    border: 2px solid blue;
+}
+select:hover{
+
+    border: 2px solid blue;
+}
+option:hover{
+    border: 2px solid rgb(78, 78, 236);
+}
+.aaa:hover{
+    border: 2px solid rgb(78, 78, 236);
+}
+</style>
+<body>
+    <div class="cont">
+    <form action="">
+    <table class="aa">
+        <tr>
+            <th colspan="5"><h2>Novell Services  Login</h2></th>
+        </tr>
+        <tr>
+            <td class="co"> <label for="Username">Username:</label> </td>
+            <td> <input type="text"> </td>
+        </tr>
+        <tr>
+            <td> <label for="Password">Password:</label> </td>
+            <td> <input type="password"> </td>
+        </tr>
+        <tr>
+            <td> <label for="City">City:</label> </td>
+            <td> <input type="text"> </td>
+        </tr>
+        <tr>
+            <td> <label for="Employment">Employment:</label> </td>
+            <td> <input type="text"> </td>
+        </tr>
+        <tr>
+            <td> <label for="Web Server">Web Server:</label> </td>
+            <td> <select name="Choose a Server" id="Web">
+                <option value="-Choose a Server -">-Choose a Server -</option>
+                <option value="AWS">AWS</option>
+                <option value="Hostanger">Hostanger</option>
+                <option value="Albaba">Alibaba</option>
+                <option value="Flix">Flix</option>
+            </select> </td>
+        </tr>
+        
+    </table>
+    <br>
+        <br>
+        <table border="0" style="text-align: left;">
+           <tr>
+            <th class="co" rowspan="5">Pleace specify Your Role </th>
+            <th rowspan=""><input type="radio"name="Type" value="Admin" class="aaa">Admin</th>
+           </tr>
+           <tr>
+            <th rowspan=""><input type="radio" name="Type" value="Engineer" class="aaa">Engineer</th>
+           </tr>
+           <tr>
+            <th rowspan=""><input type="radio"name="Type" value="Manager" class="aaa">Manager</th>
+           </tr>
+           <tr>
+            <th rowspan=""><input type="radio" name="Type" value="Guest" class="aaa">Guest</th>
+           </tr>
+        </table>
+        <br><br>
+        <table style="text-align: left;">
+            <tr>
+                <th rowspan="3" class="co">Single Singh on The Following  </th>
+                <th rowspan=""><input type="checkbox"name="Type" value="Mail">Mail</th>
+               </tr>
+               <tr>
+                <th rowspan=""><input type="checkbox" name="Type" value="Payroll">Payroll</th>
+               </tr>
+               <tr>
+                <th rowspan=""><input type="checkbox" name="Type" value="Self Service">Self Service</th>
+               </tr>
+               <tr>
+                <td></td>
+                <td class="ma"><input  type="submit" value="Login">
+                    <input class="re" type="submit" value="Reset">
+                        </td>
+                
+               </tr>
+        </table>
+    </form>
+</div>
+</body>
+</html>
